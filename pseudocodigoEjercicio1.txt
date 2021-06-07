@@ -1,0 +1,12 @@
+Algoritmo Ejercicio1
+	Escribir "Ingrese un Numero entero"
+	Leer N
+	Para i<-1 Hasta N Con Paso 1 Hacer
+		Aleatoreo <- Azar(100) + 1
+		si Aleatoreo % 2 = 0 Entonces
+			Escribir Aleatoreo," número par"
+		SiNo
+			Escribir Aleatoreo," número impar"
+		FinSi
+	Fin Para
+FinAlgoritmo
